@@ -4,7 +4,7 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import pandas as pd
 
-#Create a client credentials object to store your keys
+#Create a client credentials object to store your client and secret keys
 #NOTICE -- I did not include my actual keys here and you should keep yours confidential as well
 
 client_credentials_manager = SpotifyClientCredentials(client_id = '<your client id>', client_secret = '<your secret id>')
